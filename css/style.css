@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+
+} 
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.bg{
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.signup-form{
+      width: 40%;
+    float: left;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.signup-form .form{
+        padding:30px 15px;
+            background: rgba(108, 108, 109, 0.58);
+}
+
+.form input{
+    width: 95%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    border:  1px solid rgb(158, 158, 158);
+}
+
+.form .button{
+         width: 99%;
+        background-color: #63737B;
+    font-weight: bold;
+}
+
+.form h1{
+        font-size: 34px;
+    color: #fff;
+    margin-top: 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+
+span{
+        color: rgb(2, 31, 45);
+    cursor: pointer;
+}
+
